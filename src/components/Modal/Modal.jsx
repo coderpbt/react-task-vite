@@ -59,6 +59,7 @@ const Modal = ({ contacts, modal, setModal, showEvenOnly }) => {
               Close
             </button>
           </div>
+          {/* contact details modal       */}
           {selectedContact && (
             <div
               className={`modal ${selectedContact !== null ? 'show' : ''}`}
@@ -93,6 +94,7 @@ const Modal = ({ contacts, modal, setModal, showEvenOnly }) => {
               </div>
             </div>
           )}
+
         </div>
       </div>
     </div>
